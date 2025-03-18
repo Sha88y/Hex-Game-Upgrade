@@ -2,6 +2,8 @@
 ## inhoud
 - [**Over**](#Over)
   - [**Data opslaan**](#data_opslaan)
+  - [**Implementeren van AI**](#Implementeren_van_AI)
+  - [**AI vs AI**](#AI_vs_AI)
 -
 -
 -
@@ -15,7 +17,7 @@ Hiervoor gaan we een adaptie van de AplhaGo AI gebruiken. De AI zal leren van de
 1. **data opslaan**
    Ten eerste gaan we te werk om de data van de gespeelde games op te slaan zodat we deze kunnen gebruiken voor de AI te trainen.
 
-2. **Iplementeren van AI**
+2. **Implementeren van AI**
    Hier gaan we het algoritme toevoegen dat onze AI zal trainen. De AI is pas goed genoeg getrained als deze enkele games kan winnen tegen een gebruiker.
 
 3. **AI vs AI**
