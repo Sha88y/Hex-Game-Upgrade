@@ -1,7 +1,7 @@
 # Hex Game Upgrade
 ## inhoud
 - [**Over**](#Over)
-  -[**Data opslaan**](#data_opslaan)
+  - [**Data opslaan**](#data_opslaan)
 -
 -
 -
