@@ -1,0 +1,12 @@
+jupyter
+matplotlib
+pygame
+numpy
+image
+torch
+tb-nightly
+future 
+scipy
+joblib
+scikit-learn
+scikit-optimize
