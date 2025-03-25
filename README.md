@@ -2,7 +2,7 @@
 
 ## 📌 Inhoud
 - [**Over**](#Over)
-- [**Data opslaan**](#Data-opslaan)
+- [**Doelstellingen**](#Doelstellingen)
 - [**Implementeren van AI**](#Implementeren-van-ai)
 - [**AI vs AI**](#AI-vs-AI)
 - [**Trainen**](#Trainen)
