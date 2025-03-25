@@ -2,19 +2,20 @@
 
 ## 📌 Inhoud
 - [**Over**](#Over)
-- [**Doelstellingen**](#Doelstellingen)
+- [**Doelstellingen**](#🎯_Doelstellingen)
    - [**Data opslaan**](#Data_oplsaan)
    - [**Implementeren van AI**](#Implementeren-van-ai)
    - [**AI vs AI**](#AI-vs-AI)
    - [**Trainen**](#Trainen)
-- [**Installatie**](#Installatie)
+- [**Installatie**](#🖥️_Installatie)
+- [**AI Algoritme**](#🧠_AI_Algoritme)
 - [**Gebruik**](#Gebruik)
 - [**Conclusie**](#Conclusie)
 
 ## Over
 In dit project gaan we machine learning AI toevoegen aan ons vorig project [HEX_AI_GAME](https://github.com/BramDe/HEX_AI_GAME). Hiervoor maken we een adaptie van de AlphaGo AI. De AI zal leren van gespeelde games en hieruit de beste openingszetten en vervolgzetten berekenen door gewichten toe te kennen aan mogelijke zetten.
 
-## Doelstellingen
+## 🎯 Doelstellingen
 
 1. **Data opslaan**  
    We implementeren een systeem om data van gespeelde games op te slaan. Deze data zal gebruikt worden om de AI te trainen en strategieën te optimaliseren.
