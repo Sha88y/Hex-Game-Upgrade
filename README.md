@@ -1,4 +1,4 @@
-é# Hex Game Upgrade
+# Hex Game Upgrade
 
 ## 📌 Inhoud
 - [**Over**](#Over)
