@@ -8,7 +8,7 @@
    - [**AI vs AI**](#AI-vs-AI)
    - [**Trainen**](#Trainen)
 - [**Installatie**](#Installatie)
-- [**AI Algoritme**](#AI_Algoritme)
+- [**Algoritme**](#Algoritme)
 - [**Gebruik**](#Gebruik)
 - [**Conclusie**](#Conclusie)
 
@@ -51,7 +51,7 @@ In dit project gaan we machine learning AI toevoegen aan ons vorig project [HEX_
    python main.py
    ```
    
-## AI Algoritme
+## Algoritme
 De AI is gebaseerd op een aangepaste versie van AlphaGo, specifiek herschreven voor het Hex-spel. Dit omvat:
 - Monte Carlo Tree Search (MCTS) om de meest veelbelovende zetten te evalueren.
 - Een neuraal netwerk dat getraind wordt met opgeslagen speldata om strategieën te verbeteren.
