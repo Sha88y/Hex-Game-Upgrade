@@ -3,9 +3,10 @@
 ## 📌 Inhoud
 - [**Over**](#Over)
 - [**Doelstellingen**](#Doelstellingen)
-- [**Implementeren van AI**](#Implementeren-van-ai)
-- [**AI vs AI**](#AI-vs-AI)
-- [**Trainen**](#Trainen)
+   - [**Data opslaan**](#Data_oplsaan)
+   - [**Implementeren van AI**](#Implementeren-van-ai)
+   - [**AI vs AI**](#AI-vs-AI)
+   - [**Trainen**](#Trainen)
 - [**Installatie**](#Installatie)
 - [**Gebruik**](#Gebruik)
 - [**Conclusie**](#Conclusie)
