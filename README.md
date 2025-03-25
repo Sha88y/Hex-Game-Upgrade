@@ -2,20 +2,20 @@
 
 ## 📌 Inhoud
 - [**Over**](#Over)
-- [**Doelstellingen**](#🎯_Doelstellingen)
+- [**Doelstellingen**](#Doelstellingen)
    - [**Data opslaan**](#Data_oplsaan)
    - [**Implementeren van AI**](#Implementeren-van-ai)
    - [**AI vs AI**](#AI-vs-AI)
    - [**Trainen**](#Trainen)
-- [**Installatie**](#🖥️_Installatie)
-- [**AI Algoritme**](#🧠_AI_Algoritme)
+- [**Installatie**](#Installatie)
+- [**AI Algoritme**](#AI_Algoritme)
 - [**Gebruik**](#Gebruik)
 - [**Conclusie**](#Conclusie)
 
 ## Over
 In dit project gaan we machine learning AI toevoegen aan ons vorig project [HEX_AI_GAME](https://github.com/BramDe/HEX_AI_GAME). Hiervoor maken we een adaptie van de AlphaGo AI. De AI zal leren van gespeelde games en hieruit de beste openingszetten en vervolgzetten berekenen door gewichten toe te kennen aan mogelijke zetten.
 
-## 🎯 Doelstellingen
+## Doelstellingen
 
 1. **Data opslaan**  
    We implementeren een systeem om data van gespeelde games op te slaan. Deze data zal gebruikt worden om de AI te trainen en strategieën te optimaliseren.
@@ -29,7 +29,7 @@ In dit project gaan we machine learning AI toevoegen aan ons vorig project [HEX_
 4. **Trainen**  
    De AI wordt getraind met data van eerdere games. Het leerdoel is dat de AI op termijn een menselijke speler consistent kan verslaan.
 
-## 🖥️ Installatie
+## Installatie
 1. **Clone de repository**:
    ```sh
    git clone https://github.com/jouw-gebruikersnaam/hex-ai-game.git
@@ -51,19 +51,19 @@ In dit project gaan we machine learning AI toevoegen aan ons vorig project [HEX_
    python main.py
    ```
    
-## 🧠 AI Algoritme
+## AI Algoritme
 De AI is gebaseerd op een aangepaste versie van AlphaGo, specifiek herschreven voor het Hex-spel. Dit omvat:
 - Monte Carlo Tree Search (MCTS) om de meest veelbelovende zetten te evalueren.
 - Een neuraal netwerk dat getraind wordt met opgeslagen speldata om strategieën te verbeteren.
 - Zelfspelende simulaties waarbij de AI zijn eigen zetten analyseert en optimaliseert.
 - Een leerproces waarbij de AI als doel heeft om op termijn menselijke spelers te verslaan.
   
-## 🎮 Gebruik
+## Gebruik
 - Start het spel en speel tegen de AI.
 - Laat de AI tegen zichzelf spelen voor training.
 - Analyseer opgeslagen speldata om patronen te ontdekken.
 
-## 🔚 Conclusie
+## Conclusie
 Dit project combineert kunstmatige intelligentie en strategische gameplay om een AI te ontwikkelen die zelfstandig leert en zich aanpast. Door gebruik te maken van een aangepaste versie van AlphaGo voor Hex, creëert de AI een dynamische en steeds verbeterende strategie. Met voortdurende training en optimalisatie zal de AI uiteindelijk een niveau bereiken waarop het menselijke spelers kan verslaan. Dit project biedt niet alleen een uitdagend spel, maar ook een leerzame ervaring op het gebied van machine learning en AI-ontwikkeling.
 
 
