@@ -32,11 +32,19 @@ In dit project gaan we machine learning AI toevoegen aan ons vorig project [HEX_
    ```sh
    git clone https://github.com/jouw-gebruikersnaam/hex-ai-game.git
    ```
-2. **Installeer Python en benodigde pakketten**:
+2. **Installeer Pipenv om afhankelijkheden te beheren**:
    ```sh
-   pip install -r requirements.txt
+   pip install pipenv
    ```
-3. **Start het spel**:
+3. **Installeer afhankelijkheden** (gebruik `--skip-lock` vanwege een recente regressie in Pipenv):
+   ```sh
+   pipenv install -r requirements.txt --skip-lock
+   ```
+4. **Activeer de virtuele omgeving**:
+   ```sh
+   pipenv shell
+   ```
+5. **Start het spel**:
    ```sh
    python main.py
    ```
