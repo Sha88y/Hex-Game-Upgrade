@@ -57,6 +57,9 @@ De AI is gebaseerd op een aangepaste versie van AlphaGo, specifiek herschreven v
 - Een neuraal netwerk dat getraind wordt met opgeslagen speldata om strategieën te verbeteren.
 - Zelfspelende simulaties waarbij de AI zijn eigen zetten analyseert en optimaliseert.
 - Een leerproces waarbij de AI als doel heeft om op termijn menselijke spelers te verslaan.
+
+## Trainen
+We kunnen onze AI trainen door deze games tegen zichzelf te laten spelen. We kunnen per model dat we maken kiezen hoeveel games er gepseeld worden, hoeveel keer de AI deze games bekijkt (als dit te veel is word de AI verzadigd, als deze te weinig is heeft de AI te weinig informatie.) We kunnen kiezen hoeveel data models de AI aanmaakt per run.
   
 ## Gebruik
 - Start het spel en speel tegen de AI.
