@@ -6,9 +6,9 @@
    - [**Data opslaan**](#Data_oplsaan)
    - [**Implementeren van AI**](#Implementeren-van-ai)
    - [**AI vs AI**](#AI-vs-AI)
-   - [**Trainen**](#Trainen)
 - [**Installatie**](#Installatie)
 - [**Algoritme**](#Algoritme)
+- [**Trainen**](#Trainen)
 - [**Gebruik**](#Gebruik)
 - [**Conclusie**](#Conclusie)
 
