@@ -190,7 +190,7 @@ def train(config, training_data, validation_data):
                                                    puzzle_triple=puzzle_triple,
                                                    config=config)
 
-    checkpoint = torch.load(model_file, map_location=device)
+    checkpoint = torch.load(model_file, map_location=device, weights_only=False)
     checkpoint['model_state_dict'] = trained_model.state_dict()
     file_name = f'models/{config.get("save_model")}.pt'
     torch.save(checkpoint, file_name)

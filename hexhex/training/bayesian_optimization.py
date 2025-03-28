@@ -14,9 +14,11 @@ def parameter_dict_to_named_arg(pdict):
     bounds = pdict["bounds"]
     if all(isinstance(x, float) for x in bounds):
         prior = "log-uniform" if pdict.get("log_scale") else "uniform"
-        return skopt.utils.Real(low=bounds[0], high=bounds[1], prior=prior, name=pdict["name"])
+        from skopt.space import Real
+        return Real(low=bounds[0], high=bounds[1], prior=prior, name=pdict["name"])
     elif all(isinstance(x, int) for x in bounds):
-        return skopt.utils.Integer(low=bounds[0], high=bounds[1], name=pdict["name"])
+        from skopt.space import Real
+        return Real(low=bounds[0], high=bounds[1], prior=prior, name=pdict["name"])
     elif all(isinstance(x, str) for x in bounds):
         return skopt.utils.Categorical(categories=bounds, name=pdict["name"])
     else:

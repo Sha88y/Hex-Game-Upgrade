@@ -80,11 +80,7 @@ class Gui:
         # Clear the screen and set the screen background
         self.screen.fill(self.colors['BACKGROUND'])
 
-        text = f"""    a: trigger ai move
-{'✓' if self.editor_mode else '   '} e: human vs human mode
-{'✓' if self.show_field_text else '   '} s: toggle ai ratings
-    z: undo last move
-{'✓' if self.colors["DARK_MODE"] else '   '} d: toggle dark mode
+        text = f"""
     r: restart game"""
         blit_text(self.screen, text, (self.size[0] - 200, 10), self.font, self.colors['LINES'])
 
